@@ -1,11 +1,13 @@
-lista = [0, 15, 22, 53, 7, 17, 5 ]
+lista = (1,2,3,4,5,6,7,8,9)
+a = -1
+b = 0
 
-najw = 0
-najm = 0
-n = 0
 
-for i, element in enumerate (lista):
-    najw = lista[n]
-    n += 1
-    if najw > i:
-        najw = i
+for x in lista:
+    c = int(lista[b])
+    d = int(lista[a])
+    lista.insert(x,d)
+    b = b + 1
+    a = b - 1
+print(lista)
+
